@@ -16,4 +16,12 @@ func main() {
   } else {
     fmt.Println("Austria")
   }
+
+  if x == 50 {
+    fmt.Println("Japan")
+  } else if x > 150 {
+    fmt.Println("Austria")
+  } else {
+    fmt.Println("Peru")
+  }
 }
