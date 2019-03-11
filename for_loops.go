@@ -22,4 +22,12 @@ func main() {
     }
     fmt.Println(i)
   }
+
+  // manual incrementation
+  // starting point
+  a := 0
+  for a < 5 {
+    fmt.Println(a)
+    a++ 
+  }
 }
