@@ -28,6 +28,17 @@ func main() {
   a := 0
   for a < 5 {
     fmt.Println(a)
-    a++ 
+    a++
   }
+
+// comparable to a while loop
+  b := 2
+  for {
+    if b > 4 {
+      break
+    }
+    fmt.Println(b)
+    b++
+  }
+
 }
